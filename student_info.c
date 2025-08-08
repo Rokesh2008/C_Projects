@@ -14,7 +14,7 @@ int main(){
     scanf("%d",&std);
     struct students s[std];
     for(int i=0;i<std;i++){
-        printf("Enter the student name: ");
+        printf("Enter the name: ");
         scanf("%s",s[i].name);
         printf("Enter the age: ");
         scanf("%d",&s[i].age);
